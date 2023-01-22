@@ -36,9 +36,8 @@ body{
   }
 
 
-
   .button-006 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -60,7 +59,7 @@ body{
 
 
 .button-012 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     position: relative;
