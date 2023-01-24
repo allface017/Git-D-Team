@@ -38,7 +38,6 @@ body{
 
 
   .button-006 {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -60,7 +59,6 @@ body{
 
 
 .button-012 {
-    display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
