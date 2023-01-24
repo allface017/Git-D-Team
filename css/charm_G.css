@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body{
+  background-image: url("../html/img/基本背景.png");
+  margin: 20px;
+  padding: 0;
+}
+.Gurume{
+    width: 900px;
+    height: 500px;
+}
+.wanko{
+    width: 500px;
+    height: 300px;
+}
+.kakkou{
+    width: 500px;
+    height: 300px;
+}
+.pan{
+    width: 500px;
+    height: 300px;
+}
+/* 横並び */
+
+.flex {
+    display: flex; /*横並び*/
+  }
+  .flex .image {
+    width: 640px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+  }
+  .flex .image img {
+    width: 100%;
+    height: auto;
+  }
+  .flex .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  .flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: px;
+  }
+  .flex .text {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  
+  
+
+h1,h2,h3,h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Zen Antique', serif;
+}
+
+p {
+
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
