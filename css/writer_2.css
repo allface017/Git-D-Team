@@ -91,3 +91,11 @@ body{
   width: 300px;
   height: 300px;
 }
+@media(max-width: 600px) {
+  .flex{
+    /* 要素を縦並びにする */
+    flex-direction: column;
+    /* 中央配置 */
+    align-items: center;
+  }
+}

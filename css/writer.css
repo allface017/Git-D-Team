@@ -47,3 +47,11 @@ body {
   content: "";
   background-color: transparent;
 }
+@media(max-width: 600px) {
+  .flex{
+    /* 要素を縦並びにする */
+    flex-direction: column;
+    /* 中央配置 */
+    align-items: center;
+  }
+}

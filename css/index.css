@@ -13,3 +13,11 @@
   body{
     background-image: url(../html/img/基本背景.png);
   }
+  @media(max-width: 600px) {
+    .flex{
+      /* 要素を縦並びにする */
+      flex-direction: column;
+      /* 中央配置 */
+      align-items: center;
+    }
+  }

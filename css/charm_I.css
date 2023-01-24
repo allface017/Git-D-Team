@@ -70,3 +70,11 @@ body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 font-family: 'Noto Serif JP', serif;
   }
+  @media(max-width: 600px) {
+    .flex{
+      /* 要素を縦並びにする */
+      flex-direction: column;
+      /* 中央配置 */
+      align-items: center;
+    }
+  }

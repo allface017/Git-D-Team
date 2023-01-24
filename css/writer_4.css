@@ -85,3 +85,11 @@ body{
 .button-012 svg {
     z-index: 1;
 }
+@media(max-width: 600px) {
+  .flex{
+    /* 要素を縦並びにする */
+    flex-direction: column;
+    /* 中央配置 */
+    align-items: center;
+  }
+}
