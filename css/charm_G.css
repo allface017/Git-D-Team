@@ -53,15 +53,30 @@ body{
   
   
 
-h1,h2,h3,h4 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-family: 'Zen Antique', serif;
-}
-
-p {
-
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-}
+  body {
+    margin: 20px;
+    padding: 0;
+  }
+  h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  }
+  h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  }
+  h3{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  }
+  h4{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  }
+  p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Noto Serif JP', serif;
+  }
 @media(max-width: 600px) {
   .flex{
     /* 要素を縦並びにする */
